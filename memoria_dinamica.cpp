@@ -15,6 +15,10 @@ int tamano;
 cout << "\nCuantas notas quieres guardar? ";
 cin >> tamano;
 
+// Estos arrays dinamicos son buenos candidatos para unique_ptr
+// porque la memoria se liberaria automaticamente y se reduce
+// el riesgo de olvidar usar delete[].
+
 double *examen1 = new double[tamano];
 double *examen2 = new double[tamano];
 
