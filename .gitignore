@@ -4,8 +4,11 @@
 # Ejecutables compilados (Mac/Linux) - sin extensión.
 # Lista aquí el nombre de cada ejecutable que generes en este lab:
 direcciones
+array_pointer
 swap_demo
 memoria_dinamica
+bug_returning
+smart_pointer
 
 # Archivos objeto intermedios (si tu compilador los genera)
 *.o
